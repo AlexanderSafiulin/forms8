@@ -88,6 +88,25 @@ body {
     z-index: 9;
 }
 
+.goodtextarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    border: 1px solid #29fd2f;
+    border-radius: 3px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  }
+  
+  .goodtextarea .instructions {
+    color: #0b24fb;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
 .underformbutton {   
     display: flex;
     position: relative;
@@ -139,8 +158,6 @@ body {
     left: 0px;
     top: 900px;
 }
-
-
 
 /*
 .form-row {
