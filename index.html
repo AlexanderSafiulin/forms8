@@ -23,24 +23,38 @@
  </div>
 
 
- 
+ <form action="" method="get" class="speaker-form">
+
 <div class="formblock">
 
     <div>
     <label for="name">Имя</label><br>
-    <input id="name" name="name" type="text" value="Ира"/></div>
+    <input id="name" name="name" type="text" placeholder="Ира"/></div>
 <div>
     <label for="city">Город</label><br>
-    <input id="city" name="city" type="text" value="Сочи"/>
+    <input id="city" name="city" type="text" placeholder="Сочи"/>
 </div>
 <div>
     <label for="gift">Подарок</label><br>
-    <input id="gift" name="gift" type="text" value="Книга в твердом переплете"/>
+    <input id="gift" name="gift" type="text" placeholder="Книга в твердом переплете"/>
 </div>
 <div>
 
     <label for="email">Электронная почта</label><br>
     <input id="email" name="email" type="email" placeholder="example@mail.com"/>
+
+    <div class="form-row">
+        <label class="checkbox-label" for="available">
+        <input id="available"
+          name="available"
+          type="checkbox"
+          value="is-available"/>
+        <span>Я свободен в эти даты</span>
+        </label>
+      </div>  <!--Вместо того, чтобы существовать как отдельный элемент, 
+        <label> заключает в себя соответствующий ему элемент <input/>. 
+            Это облегчит процесс создания желаемого макета.-->
+
 </div>
 
 </div>
@@ -50,6 +64,7 @@
 </div>
 
 
+</form> <!--у формы свой тег есть, - в нем форму надо делать-->
 
  
  <div class="ontheway">ВАША ПОСЫЛКА УЖЕ В ПУТИ</div>
