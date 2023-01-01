@@ -42,6 +42,9 @@ body {
     background-position: center; */
     align-items: center;
     justify-content: center;
+    background-image: "images\background.png"
+    height: 150px;
+    padding: 50px;
 
 }
 
@@ -64,36 +67,22 @@ body {
 
 .formblock {   
     display: flex;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
+    width: 250px;
+    flex-direction: column;
+    margin-bottom: 15px;
     padding: 24px 24px;
-    color: white;
-    font-size:18pt;
     background-color:#F8BFC7;
-    position: absolute;
-    width: 300px;
-    height: 362px;
-    top: 0px;
     border-radius: 15px;
     border: 2px solid white;
-    margin-top: 150px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-right: auto;
     font-size: 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    z-index: 9;
+    color: white;
 }
 
 .goodtextarea {
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 14px;
-  
     border: 1px solid #29fd2f;
     border-radius: 3px;
-  
     min-height: 200px;
     margin-bottom: 10px;
     padding: 7px;
@@ -108,30 +97,22 @@ body {
 
 .underformbutton {   
     display: flex;
-    position: relative;
     align-items: center;
-    width: 180px;
-    justify-content: center;
+    justify-content: left;
     color: white;
     font-size:18pt;
-    background-color:#F8BFC7;
-    border-radius: 15px;
-    border: 2px solid white;
-    z-index: 11;
 }
 
 .underformbutton button {
-
+    padding: 10px 40px;
     background-color:orange;
     border-radius: 20px;
-
+    border: 2px solid white;
     color:aliceblue;
     font-size: 16px;
     font-weight: bold;
-    border: none;
-    padding: 10px 40px;
     cursor: pointer;
-}
+  }
       
 .underformbutton button:hover {
     background-color: #0b24fb;
